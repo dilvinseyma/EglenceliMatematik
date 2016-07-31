@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/egmat2"
+    tools:context="com.example.hp.eglencelimatematik.MainActivity">
+
+    <TextView
+        android:id="@+id/tvislem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="İşlem Seç"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#ff0e64" />
+    <Button
+        android:id="@+id/btnIslem"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:background="@drawable/mathsigns"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="islemleriAc"/>
+
+    <TextView
+        android:id="@+id/tvsayi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Sayıları Öğren"
+        android:textSize="25dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#ff0e64" />
+    <Button
+        android:id="@+id/btnSayilar"
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:background="@drawable/sayi"
+        android:layout_alignBottom="@+id/btnIslem"
+        android:layout_alignRight="@+id/tvislem"
+        android:layout_alignEnd="@+id/tvislem"
+        android:onClick="sayilariAc"/>
+</RelativeLayout>

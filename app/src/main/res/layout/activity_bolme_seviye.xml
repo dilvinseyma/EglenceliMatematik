@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/egmat2"
+    android:gravity="center"
+    tools:context="com.example.hp.eglencelimatematik.BolmeSeviye">
+
+    <Button
+        android:id="@+id/btnKolay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kolay"
+        android:background="#78c92d"
+        android:layout_gravity="center_vertical" />
+    <Button
+        android:id="@+id/btnOrta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orta"
+        android:background="#bd3784" />
+    <Button
+        android:id="@+id/btnZor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zor"
+        android:background="#cca24a" />
+
+</LinearLayout>

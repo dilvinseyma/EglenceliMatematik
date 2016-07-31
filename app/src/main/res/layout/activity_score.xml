@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/egmat2"
+    tools:context="com.example.hp.eglencelimatematik.Score">
+
+    <TextView
+        android:id="@+id/scoreYaziView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="65sp"
+        android:paddingTop="60dp"
+        android:layout_marginLeft="97dp"
+        android:text="PUAN"/>
+    <TextView
+        android:id="@+id/scoreView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:paddingTop="150dp"
+        android:layout_marginLeft="150dp"
+
+        />
+    <Button
+        android:id="@+id/btnDevam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Devam"
+        android:background="#78c92d"
+        android:layout_gravity="center_vertical" />
+    <Button
+        android:id="@+id/btnCikis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çıkış"
+        android:background="#bd3784" />
+</LinearLayout>

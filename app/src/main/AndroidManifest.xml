@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.eglencelimatematik" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bach"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bir" />
+        <activity android:name=".Iki" />
+        <activity android:name=".Uc" />
+        <activity android:name=".Dort" />
+        <activity android:name=".Bes" />
+        <activity android:name=".Alti" />
+        <activity android:name=".Yedi" />
+        <activity android:name=".Sekiz" />
+        <activity android:name=".Dokuz" />
+        <activity android:name=".On" />
+        <activity
+            android:name=".IslemlerMainActivity"
+            android:label="@string/title_activity_islemler_main" >
+        </activity>
+        <activity
+            android:name=".Bolme"
+            android:label="@string/title_activity_bolme" >
+        </activity>
+        <activity
+            android:name=".Carpma"
+            android:label="@string/title_activity_carpma" >
+        </activity>
+        <activity
+            android:name=".Toplama"
+            android:label="@string/title_activity_toplama" >
+        </activity>
+        <activity
+            android:name=".Cikarma"
+            android:label="@string/title_activity_cikarma" >
+        </activity>
+        <activity
+            android:name=".ToplamaSeviye"
+            android:label="ToplamaSeviye" >
+        </activity>
+        <activity
+            android:name=".CarpmaSeviye"
+            android:label="CarpmaSeviye" >
+        </activity>
+        <activity
+            android:name=".BolmeSeviye"
+            android:label="CarpmaSeviye" >
+        </activity>
+        <activity
+            android:name=".CikarmaSeviye"
+            android:label="CarpmaSeviye" >
+        </activity>
+        <activity
+            android:name=".Score"
+            android:label="@string/title_activity_score" >
+        </activity>
+        <activity
+            android:name=".IslemlerDevamActivity"
+            android:label="@string/title_activity_islemler_devam" >
+        </activity>
+    </application>
+
+</manifest>

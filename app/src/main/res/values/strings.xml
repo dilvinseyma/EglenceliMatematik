@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Eglenceli Matematik</string>
+    <string name="title_activity_main_activity_islemler">MainActivityIslemler</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_toplama">Toplama</string>
+    <string name="title_activity_cikarma">Cikarma</string>
+    <string name="title_activity_bolme">Bolme</string>
+    <string name="title_activity_carpma">Carpma</string>
+    <string name="title_activity_islemler_main">IslemlerMainActivity</string>
+    <string name="title_activity_score">Score</string>
+    <string name="title_activity_islemler_devam">IslemlerDevamActivity</string>
+</resources>

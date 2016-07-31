@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/egmat2"
+    tools:context="com.example.hp.eglencelimatematik.Bolme">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewIslemler"
+        android:textColor="#8904B1"
+        android:textSize="60sp"
+        android:layout_marginTop="35dp"
+        android:paddingTop="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnSecenek1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pinkballoon"
+        android:textColor="#FF8000"
+        android:textSize="45dp"
+        android:gravity="top|center"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp" />
+
+    <Button
+        android:id="@+id/btnSecenek2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orangeballoon"
+        android:textColor="#58FA58"
+        android:textSize="45dp"
+        android:gravity="top|center"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnSecenek3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/greenballoon"
+        android:textColor="#DF01A5"
+        android:textSize="45dp"
+        android:gravity="top|center"
+        android:paddingTop="12dp"
+        android:layout_alignTop="@+id/btnSecenek2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp" />
+
+
+</RelativeLayout>
